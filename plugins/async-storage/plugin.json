@@ -1,0 +1,19 @@
+{
+  "id": "async_storage",
+  "title": "AsyncStorage",
+  "version": "1.0.0",
+  "description": "Browse serialized keys, string payloads, and storage entries in AsyncStorage.",
+  "author": "react-native-async-storage",
+  "icon": "layers",
+  "repository": "https://github.com/react-native-async-storage/async-storage",
+  "columns": [
+    { "key": "key", "label": "Storage Key", "type": "text" },
+    { "key": "value", "label": "Value", "type": "json" },
+    { "key": "bytes", "label": "Bytes", "type": "number" },
+    { "key": "timestamp", "label": "Timestamp", "type": "timestamp" }
+  ],
+  "actions": [
+    { "id": "refresh", "label": "Reload Keys" },
+    { "id": "clear", "label": "Clear All" }
+  ]
+}

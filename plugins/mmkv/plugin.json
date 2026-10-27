@@ -1,0 +1,20 @@
+{
+  "id": "mmkv",
+  "title": "MMKV Storage",
+  "version": "1.0.0",
+  "description": "Inspect, query, and modify key-value pairs stored in react-native-mmkv in real time.",
+  "author": "mrousavy / unified-devtools",
+  "icon": "database",
+  "repository": "https://github.com/mrousavy/react-native-mmkv",
+  "columns": [
+    { "key": "key", "label": "Key", "type": "text" },
+    { "key": "type", "label": "Type", "type": "badge" },
+    { "key": "value", "label": "Value", "type": "json" },
+    { "key": "size", "label": "Size", "type": "text" },
+    { "key": "timestamp", "label": "Last Modified", "type": "timestamp" }
+  ],
+  "actions": [
+    { "id": "refresh", "label": "Reload Keys" },
+    { "id": "clear_all", "label": "Wipe Storage" }
+  ]
+}

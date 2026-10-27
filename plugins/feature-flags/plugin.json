@@ -1,0 +1,19 @@
+{
+  "id": "feature_flags",
+  "title": "Feature Flags",
+  "version": "1.0.0",
+  "description": "Real-time toggle control and live state inspection for remote feature gates and A/B rollout variants.",
+  "author": "unified-devtools",
+  "icon": "flag",
+  "repository": "https://github.com/unified-devtools/react-native-core",
+  "columns": [
+    { "key": "flag", "label": "Flag Key", "type": "text" },
+    { "key": "enabled", "label": "Status", "type": "badge" },
+    { "key": "description", "label": "Description", "type": "text" },
+    { "key": "rollout", "label": "Rollout %", "type": "number" }
+  ],
+  "actions": [
+    { "id": "sync", "label": "Sync with Remote" },
+    { "id": "reset", "label": "Reset to Defaults" }
+  ]
+}
